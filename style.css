@@ -13,11 +13,11 @@
   --icon-size: 50px;
 
   /* Font Size */
-  --font-large: 2.9vmax;
+  --font-large: 2.7vmax;
   --font-medium: 14px;
   --font-small: 12px;
   --font-micro: 10px;
-  --font-main: 11vw;
+  --font-main: 10.1vmax;
   --font-title: 5vmax;
 }
 
@@ -159,7 +159,7 @@ body::-webkit-scrollbar-track {
 }
 .title .nav_bar .nav_bar_links {
   display: flex;
-  justify-content: right;
+  float: right;
 }
 .title .nav_bar .nav_bar_links li {
   list-style: none;
@@ -177,10 +177,10 @@ body::-webkit-scrollbar-track {
   display: none;
   position: absolute;
   top: 0;
-  right: 2vmax;
-  margin: 2vmax;
+  right: 5vmax;
+  margin-top: 6vmax;
   text-align: center;
-  font-size: 1.5vmax;
+  font-size: 3vmax;
 }
 .title .nav_bar .nav_bar_toggle i {
   padding: 2vmax;
@@ -191,7 +191,7 @@ body::-webkit-scrollbar-track {
   margin-left: 10vw;
 }
 .title div:nth-of-type(1) {
-  padding-top: 20vh;
+  padding-top: 25vh;
 }
 .title div:nth-of-type(2) {
   font-size: var(--font-large);
@@ -575,8 +575,8 @@ footer .copyright p {
   .title .nav_bar .nav_bar_links {
     display: none;
     float: right;
-    margin-right: 2vmax;
-    margin-top: 2vmax;
+    margin-right: 3vmax;
+    margin-top: 6vmax;
     padding: 2vmax;
     border-radius: 10px;
     background-color: rgb(233, 233, 233);
