@@ -447,9 +447,6 @@ body::-webkit-scrollbar-track {
   transform: scale(2);
   transition: all 300ms ease-in;
 }
-div:hover {
-  overflow: visible !important;
-}
 .special_activity .wrap .book .content_img {
   margin: auto;
 }
