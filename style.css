@@ -136,6 +136,7 @@ body::-webkit-scrollbar-track {
   position: relative;
   z-index: 1;
   margin: 0;
+  overflow: hidden;
 }
 .title::after {
   width: 100%;
@@ -268,6 +269,7 @@ body::-webkit-scrollbar-track {
   width: 100%;
   padding: 4vmax 2vmax;
   margin-bottom: 4vmax;
+  overflow: hidden;
 }
 
 .members:after,
