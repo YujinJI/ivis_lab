@@ -41,3 +41,8 @@ const ACTIVE = 'active'
 toggleBtn.addEventListener('click', () => {
     links.classList.toggle(ACTIVE);  
 });
+
+function navScrollTo(pos) {
+    const posTop = document.querySelector(pos).offsetTop;
+    window.scrollTo({top: posTop, behavior: 'smooth'});
+}
