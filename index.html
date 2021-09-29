@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IVIS</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/00f94cd249.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="/main.js" defer></script>
+    <script src="/imagesloaded.pkgd.min.js"></script>
+</head>
+<body>
+    <script>
+        AOS.init();
+    </script>
+    <div class="progress">
+        <span class="progress-text">0</span>
+        <div class="loading-pulse"></div>
+    </div>
+    <div class="title" data-aos="fade-down" data-aos-duration="2000">
+        <!-- <div class="title_txt">창원대학교</div> -->
+        <div class="title_txt">IVIS Lab</div>
+        <div>Information Visualization Lab</div>
+        <a href="#about">
+            <span></span>
+            <p>Scroll</p>
+        </a>
+        <nav class="nav_bar">
+            <ul class="nav_bar_links">
+                <li><a href="#about">About IVIS</a></li>
+                <li><a href="#site">Site</a></li>
+                <li><a href="#members">Members</a></li>
+                <li><a href="#activity">Activitiy</a></li>
+                <li><a href="#join">Join</a></li>
+                <li><a href="#comment">Comments</a></li>
+            </ul>
+            <a href="#" class="nav_bar_toggle">
+                <i class="fas fa-bars"></i>
+            </a>
+        </nav>
+    </div>
+    <div class="container">
+        <div id="about">
+            <div class="title_txt" data-aos="fade-up" data-aos-duration="1000">About IVIS</div>
+            <div class="wrap">
+                <article data-aos="fade-up-right" data-aos-duration="1500">
+                    <div class="pic">
+                        <img src="/image/dongu.jpeg">
+                    </div>
+                    <h2>Professor</h2>
+                    <p>정보통신공학과 박동규 교수님</p>
+                </article>
+                <article data-aos="fade-up" data-aos-duration="1500">
+                    <div class="pic">
+                        <img src="/image/location.png">
+                    </div>
+                    <h2>Location</h2>
+                    <p>창원대학교 51호관 304호</p>
+                </article>
+                <article data-aos="fade-up-left" data-aos-duration="1500">
+                    <div class="pic">
+                        <img src="/image/iMac.png">
+                    </div>
+                    <h2>Computer</h2>
+                    <p>iMac</p>
+                </article>
+            </div>
+        </div>
+        <div id="site" class="site">
+            <div class="title_txt" data-aos="fade-up" data-aos-duration="1000">Site</div>
+            <div class="wrap">
+                <article data-aos="zoom-in" data-aos-duration="2000">
+                    <div class="pic">
+                        <img src="/image/ivis_imac.png">
+                    </div>
+                    <h2><a href="http://ivis.kr/index.php/%EB%8C%80%EB%AC%B8">ivis.kr</a></h2>
+                </article>
+                <article data-aos="zoom-in" data-aos-duration="2000">
+                    <div class="pic">
+                        <img src="/image/notion_imac.png">
+                    </div>
+                    <h2><a href="https://oxidized-thief-3a7.notion.site/2021-IVIS-a98eae2ab76041728303230b8290985f">notion</a></h2>
+                </article>
+            </div>
+        </div>
+        <div id="members" class="members">
+            <div class="title_txt" data-aos="fade-up" data-aos-duration="1000">Members</div>
+            <div class="media_wrap">
+                <div class="wrap">
+                    <div class="member">
+                        <div data-aos="fade-down" data-aos-duration="1000"><span>👩🏻‍💻</span><strong>지유진(19학번) 정보통신공학과 3학년</strong></div>
+                        <div data-aos="fade-right" data-aos-duration="1000"><span>👨🏻‍💻</span>이수균(16학번) 정보통신공학과 4학년</div>
+                        <div data-aos="fade-up" data-aos-duration="1000"><span>👨🏻‍💻</span>김동현(17학번) 정보통신공학과 3학년</div>
+                    </div>
+                    <div class="member">
+                        <div data-aos="fade-down" data-aos-duration="1000"><span>👨🏻‍💻</span>김찬우(17학번) 정보통신공학과 3학년</div>
+                        <div data-aos="fade-left" data-aos-duration="1000"><span>👨🏻‍💻</span>박병권(18학번) 정보통신공학과 2학년</div>
+                        <div data-aos="fade-up" data-aos-duration="1000"><span>👩🏻‍💻</span>김은지(20학번) 정보통신공학과 2학년</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="activity" class="activity">
+            <div class="title_txt" data-aos="fade-up" data-aos-duration="1000">Activity in 2019</div>
+            <div class="wrap">
+                <div class="contents column" data-aos="fade-up-right" data-aos-duration="1000">
+                    <p>1️⃣  2019 하계 딥러닝 세미나</p>
+                    <p>2️⃣  2019 동계 Github 세미나</p>
+                    <p>3️⃣  2019.3~5 iOS 어플리케이션 개발 과정 수료</p>
+                    <p>4️⃣  교수님과 함께 기업탐방</p>
+                    <p>5️⃣  교수님과 함께 광안리 패들보드</p>
+                    <p>6️⃣  2019.9~11 안드로이드 어플리케이션 개발 과정 수료</p>
+                    <p>7️⃣  SW융합 창의체험캠프 아이디어 경진대회 <strong>(최우수상)</strong></p>
+                    <p>8️⃣  2019.9~12 취업동아리</p>
+                </div>
+                <div class="contents">
+                    <div class="updown">
+                        <div class="pic" data-aos="fade-up" data-aos-duration="3000"><p>기업탐방</p><img src="/image/seoul.jpg"></div>
+                        <div class="pic" data-aos="fade-up" data-aos-duration="3000"><img src="/image/busan.jpg"><p>광안리 패들보드</p></div>
+                    </div>
+                    <div class="updown">
+                        <div class="pic" data-aos="fade-up" data-aos-duration="3000"><img src="/image/iOS.jpg"><p>어플리케이션 개발 과정 수료</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="activity">
+            <div class="title_txt" data-aos="fade-up" data-aos-duration="1000">Activity in 2020</div>
+            <div class="wrap">
+                <div class="contents column" data-aos="fade-up-right" data-aos-duration="1000">
+                    <p>1️⃣  2020 하계 클론 코딩 영화 평점 웹서비스 세미나</p>
+                    <p>2️⃣  2020 동계 아두이노 세미나</p>
+                    <p>3️⃣  비대면 수업 지원단</p>
+                    <p>4️⃣  제7회 대한민국 SW융합 해커톤 대회 <strong>(우수상)</strong></p>
+                    <p>5️⃣  2020.9~12 청출어람 멘토링 프로그램 (javascript 강의)</p>
+                    <p>6️⃣  지역과학기술진흥원 과학교실 강사&보조강사</p>
+                </div>
+                <div class="contents">
+                    <div class="updown">
+                        <div class="pic" data-aos="fade-up" data-aos-duration="1500"><p>영화 평점 웹서비스</p><img src="/image/clone.png"></div>
+                        <div class="pic" data-aos="fade-up" data-aos-duration="1500"><img src="/image/github.png"><p>github에 정리</p></div>
+                    </div>
+                    <div class="updown">
+                        <div class="pic" data-aos="fade-up" data-aos-duration="1500"><p>Mac실</p><img src="/image/javascript.png"></div>
+                        <div class="pic" data-aos="fade-up" data-aos-duration="1500"><img src="/image/hack.png"><p>해커톤 대회</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="activity">
+            <div class="title_txt" data-aos="fade-up" data-aos-duration="1000">Activity in 2021</div>
+            <div class="wrap">
+                <div class="contents column" data-aos="fade-up-right" data-aos-duration="1000">
+                    <p>1️⃣  2021.3~6 매주 백준 코드리뷰</p>
+                    <p>2️⃣  2021 SW창의캠프 해커톤 대회 <strong>(최우수상)</strong></p>
+                    <p>3️⃣  2021 하계 앱제작 세미나</p>
+                    <p>4️⃣  2021.3~6 청출어람 멘토링 프로그램</p>
+                    <p>5️⃣  2021.4~12 취업동아리, 창업동아리</p>
+                    <p>6️⃣  2021 u300 대회 본선 진출</p>
+                    <p>7️⃣  데이터기반 의사결정(IR) 연구팀</p>
+                    <p>8️⃣  지역과학기술진흥원 과학교실 강사&보조강사</p>
+                    <p>9️⃣  제8회 대한민국 SW융합 해커톤 대회</p>
+                </div>
+                <div class="contents">
+                    <div class="updown">
+                        <div class="pic" data-aos="fade-up" data-aos-duration="1500"><p>창업아이템 '플라워드'</p><img src="/image/floword.png"></div>
+                        <div class="pic" data-aos="fade-up" data-aos-duration="1500"><img src="/image/board.png"><p>해커톤 대회</p></div>
+                    </div>
+                    <div class="updown">
+                        <div class="pic" data-aos="fade-up" data-aos-duration="1500"><p>연구실 회의</p><img src="/image/room.png"></div>
+                        <div class="pic" data-aos="fade-up" data-aos-duration="1500"><img src="/image/u300.png"><p>u300 모의 투자 대회</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="special_activity">
+            <div class="title_txt" data-aos="fade-up" data-aos-duration="1000">Other Special Activities</div>
+            <div class="wrap">
+                <div class="youtube" data-aos="zoom-in" data-aos-duration="1500">
+                    <div class="youtube_pic"><img src="/image/youtube.png"></div>
+                </div>
+                <div class="youtube" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="final_pic"><img src="/image/finalcutpro.png"></div>
+                    <p>Final Cut Pro</p>
+                </div>
+            </div>
+            <div class="wrap" data-aos="fade-up">
+                <div class="book" data-aos="fade-right" data-aos-duration="1500">
+                    <div class="contents">
+                        <div class="content_img"><img src="/image/book.png"></div>
+                        <p>Book</p>
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="book_img" data-aos="zoom-in" data-aos-duration="1500">
+                        <div class="pic"><img src="/image/book1.jpeg"></div>
+                        <div class="pic"><img src="/image/book2.jpeg"></div>
+                    </div>
+                    <div class="book_img" data-aos="zoom-in" data-aos-duration="1500">
+                        <div class="pic"><img src="/image/book3.jpeg"></div>
+                        <div class="pic hover_scale"><img src="/image/book4.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="join" class="join">
+            <div class="title_txt" data-aos="fade-up" data-aos-duration="1000">How to join</div>
+            <div class="media_wrap">
+                <div class="wrap">
+                    <div class="contents" data-aos="fade-up" data-aos-duration="1000">
+                        <p class="title_txt2">지원자격</p>
+                        <li>창원대학교 정보통신공학과에 재학중인 학생</li>
+                        <p class="title_txt2">모집절차</p>
+                        <li>신청 👉 면접(코딩테스트) 👉 선발 </li>
+                    </div>
+                    <div class="contents" data-aos="fade-up" data-aos-duration="1000">
+                        <p class="title_txt2">우대사항</p>
+                        <li>코딩에 관심이 있으신 분</li>
+                        <li>모든 활동에 열심히 임할 수 있으신 분</li>
+                        <li>학교에 자주 나올 수 있으신 분 (매주 회의 진행)</li>
+                    </div>
+                </div>
+            </div>
+            <div class="qna_box">
+                <div class="qna" data-aos="zoom-in" data-aos-duration="2000">
+                    <p class="title_txt2">Q&A</p>
+                    <p>Q) 신청 기간은 언제인가요?</p>
+                    <p class="answer">A) 겨울방학부터 신청 받습니다!</p>
+                    <p>Q) 코딩테스트는 어떻게 준비해야하나요?</p>
+                    <p class="answer">A) 교재 "으뜸 파이썬"을 기반으로 문제가 제시될 예정입니다.</p>
+                </div>
+            </div>
+        </div>
+        <div id="disqus_thread" class="comment" data-aos="zoom-in" data-aos-duration="1000">
+            <script>
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                
+                /*var disqus_config = function () {
+                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://ivis-1.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', + new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        </div>
+    </div>
+    <footer>
+        <div class="wrap">
+            <div class="contents">
+                <div class="ivis">IVIS</div>
+                <p class="ivis_">창원대학교 정보통신공학과 IVIS Lab</p>
+            </div>
+            <div class="contents">
+                <div class="title_txt">About me</div>
+                <p>Ji Yujin</p>
+                <p><a href="https://github.com/YujinJI"><i class="fab fa-github"></i>github</a></p>
+                <p><a href="https://www.instagram.com/uuujinnnji/"><i class="fab fa-instagram"></i>instagram</a></p>
+                <p><a href="https://www.facebook.com/profile.php?id=100007052411136https://www.facebook.com/profile.php?id=100007052411136"><i class="fab fa-facebook"></i>facebook</a></p>
+            </div>
+            <div class="contents">
+                <div class="title_txt">License</div>
+                <p><a href="https://github.com/michalsnik/aos/blob/next/LICENSE">aos</a></p>
+                <p><a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL">Noto Sans Korean</a></p>
+                <p><a href="http://www.apache.org/licenses/LICENSE-2.0">Roboto</a></p>
+                <p><a href="https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL">Montserrat</a></p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2021. yujin All rights reserved</p>
+        </div>
+    </footer>
+    <a id="top_btn" class=""><i class="fas fa-arrow-circle-up"></i></a>
+    <script>
+        $(window).scroll(function(){
+    
+            if( $(this).scrollTop() > 100 ){
+                $("#top_btn").addClass("on");
+            }
+            else{
+                $("#top_btn").removeClass("on");
+            }
+            
+        });
+            
+        $("#top_btn").click(function(){
+            window.scrollTo({top : 0, behavior: 'smooth'}); 
+        });
+    </script>
+</body>
+</html>
