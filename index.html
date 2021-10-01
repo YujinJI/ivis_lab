@@ -3,6 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/code_favicon.png"/>
+    <!-- <a target="_blank" href="https://icons8.kr">lcons8</a>에 의한 <a target="_blank" href="https://icons8.kr/icon/116827/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EC%9E%91%EC%84%B1">프로그램 작성</a> 아이콘 -->
+    <!-- 섬네일 -->
+    <meta property="og:url" content="https://yujinji.github.io/ivis_lab/">
+    <meta property="og:title" content="Introduce IVIS Lab">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="image/og.png">
+    <meta property="og:description" content="IVIS Lab 홍보 페이지입니다.">
+    <meta name="google-site-verification" content="aMyvQXg7ohQAcR2HVsx4MaeE4dgZxKyV2sbaB7pu7Tc" />
     <title>IVIS</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
@@ -36,14 +45,14 @@
         </a>
         <nav class="nav_bar">
             <ul class="nav_bar_links">
-                <li><a href="#about">About IVIS</a></li>
-                <li><a href="#site">Site</a></li>
-                <li><a href="#members">Members</a></li>
-                <li><a href="#activity">Activitiy</a></li>
-                <li><a href="#join">Join</a></li>
-                <li><a href="#disqus_thread">Comments</a></li>
+                <li><a onclick="navScrollTo('#about')">About IVIS</a></li>
+                <li><a onclick="navScrollTo('#site')">Site</a></li>
+                <li><a onclick="navScrollTo('#members')">Members</a></li>
+                <li><a onclick="navScrollTo('#activity')">Activitiy</a></li>
+                <li><a onclick="navScrollTo('#join')">Join</a></li>
+                <li><a onclick="navScrollTo('#disqus_thread')">Comments</a></li>
             </ul>
-            <a href="#" class="nav_bar_toggle">
+            <a class="nav_bar_toggle">
                 <i class="fas fa-bars"></i>
             </a>
         </nav>
@@ -247,7 +256,7 @@
                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
                 
                 /*var disqus_config = function () {
-                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                this.page.url = "https://yujinji.github.io/ivis_lab/";  // Replace PAGE_URL with your page's canonical URL variable
                 this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
                 };
                 */
