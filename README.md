@@ -2,7 +2,7 @@
 
 ###### _해당 페이지는 단순 신입생에게 보여주기 위한 소개 페이지 입니다._
 
-페이지 구경가기 👉 [yujinji.github.io/ivis_lab](yujinji.github.io/ivis_lab)
+페이지 구경가기 👉 [yujinji.github.io/ivis_lab](https://yujinji.github.io/ivis_lab/)
 
 ![page](./image/ivis_lab_page.png)
 
